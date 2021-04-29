@@ -1,0 +1,27 @@
+{
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "sourceType": "module",
+    "allowImportExportEverywhere": false,
+    "codeFrame": false
+  },
+  "extends": ["airbnb", "prettier"],
+  "env": {
+    "browser": true,
+    "jest": true
+  },
+  "rules": {
+    "max-len": ["error", {"code": 100}],
+    "prefer-promise-reject-errors": ["off"],
+    "react/jsx-filename-extension": ["off"],
+    "react/prop-types": ["off"],
+    "no-return-assign": ["off"],
+
+    //2代表报错，不能运行；1代表warn可以运行,但是会提示在控制台
+    "semi": [1,"never"], //js文件 结尾无分号
+    "no-console": ["off"], //暂时关闭noconsole 的 warn
+    "object-shorthand": 0, //
+    "import/no-unresolved": "off" //Unable to resolve path to module '@material-ui'.eslintimport/no-
+  }
+}
+
