@@ -1,3 +1,4 @@
-# HiDongyu Project
+# HiDongyu Project - Online house clean booking website
 https://hidongyu.com
-### AWS S3 + cloudFront + Ubuntu EC2 backend
+### Frontend: AWS S3 + Route53 + CloudFront + SSL
+### Backend: EC2 Ubuntu + nginx + SSL
